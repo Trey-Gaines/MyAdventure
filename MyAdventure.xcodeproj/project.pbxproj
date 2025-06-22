@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2D5970DB2E07A241008B5301 /* Screenshot 2025-06-21 at 10.27.58 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5970DA2E07A241008B5301 /* Screenshot 2025-06-21 at 10.27.58 PM.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2D5970AF2E07974A008B5301 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		2D5970A02E07974A008B5301 /* MyAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5970AE2E07974A008B5301 /* MyAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5970B82E07974A008B5301 /* MyAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5970DA2E07A241008B5301 /* Screenshot 2025-06-21 at 10.27.58 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2025-06-21 at 10.27.58 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -67,6 +72,7 @@
 			children = (
 				2D5970A22E07974A008B5301 /* MyAdventure */,
 				2D5970A12E07974A008B5301 /* Products */,
+				2D5970DA2E07A241008B5301 /* Screenshot 2025-06-21 at 10.27.58 PM.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5970DB2E07A241008B5301 /* Screenshot 2025-06-21 at 10.27.58 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
