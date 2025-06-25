@@ -40,15 +40,27 @@ struct ContentView: View {
                     Button {
                         myObserver.currentNodeID = 0
                     } label: {
-                        Text("Restart")
-                            .font(.title)
-                            .fontWeight(.semibold)
-                            .foregroundStyle(.white)
-                            .padding(10)
-                            .fontWeight(.semibold)
-                            .background {
-                                RoundedRectangle(cornerRadius: 25).fill(Color.red)
-                            }
+                        if myObserver.currentNode.isSuccess {
+                            Text("Congrats! Restart")
+                                .font(.title)
+                                .fontWeight(.semibold)
+                                .foregroundStyle(.white)
+                                .padding(10)
+                                .fontWeight(.semibold)
+                                .background {
+                                    RoundedRectangle(cornerRadius: 25).fill(Color.green)
+                                }
+                        } else {
+                            Text("Restart")
+                                .font(.title)
+                                .fontWeight(.semibold)
+                                .foregroundStyle(.white)
+                                .padding(10)
+                                .fontWeight(.semibold)
+                                .background {
+                                    RoundedRectangle(cornerRadius: 25).fill(Color.red)
+                                }
+                        }
                     }
                 }
             }
